@@ -4,8 +4,8 @@ from functools import partial
 import os
 from threading import Thread,Event
 from bot import autoReply
-# from pynput import keyboard
 import keyboard
+
 class AutoReplyBot:
     def __init__(self, master):
         self.master = master
